@@ -1,14 +1,11 @@
 source:      .
 destination: ./_site
-plugins:     ./_plugins
 layouts:     ./_layouts
 includes:     ./_includes
-include:     ['.htaccess']
 timezone:    nil
 
 future:      true
 show_drafts: nil
-limit_posts: 0
 pygments:    true
 
 relative_permalinks: true

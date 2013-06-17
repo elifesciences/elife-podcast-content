@@ -1,0 +1,17 @@
+---
+layout: episode
+title: eLife podcast homepage
+---
+
+This is an example episode This is the text that describes the overall episode. 
+
+{% include sidebar %}
+
+
+{% highlight ruby %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}
+
+{{ page.title }}

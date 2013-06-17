@@ -3,12 +3,11 @@
 
 {{ page.content }}
 
-
-{% for post in site.categories.segment %}
+start posts
+{% for post in site.posts %}
 			{{ post.title }}
-			<hr>
-			<br/>
 {% endfor %}
+end posts
 
 
 	<div id="rh-sidebar">
@@ -16,9 +15,6 @@
 		{% include back-arrow %}
 		{% include sidebar %}
 	</div>
-
-{% gist 5555251 %}
-
 
 </body>
 </html>

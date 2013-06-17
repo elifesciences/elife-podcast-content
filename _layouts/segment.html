@@ -3,22 +3,11 @@
 
 {{ page.content }}
 
-
-{% for post in site.categories.segment %}
-			{{ post.title }}
-			<hr>
-			<br/>
-{% endfor %}
-
-
 	<div id="rh-sidebar">
 		{% include subscribe %}
 		{% include back-arrow %}
 		{% include sidebar %}
 	</div>
-
-{% gist 5555251 %}
-
 
 </body>
 </html>

@@ -1,0 +1,13 @@
+{% include header %}
+<body>
+
+{{ page.content }}
+
+	<div id="rh-sidebar">
+		{% include subscribe.html %}
+		{% include back-arrow.html %}
+		{% include sidebar.html %}
+	</div>
+
+</body>
+</html>
