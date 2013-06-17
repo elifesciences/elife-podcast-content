@@ -1,9 +1,15 @@
 ---
 layout: segment
-title: Issue2 segment 4
+title: (6:23) Issue2 segment 4
 categories:
  - segment
  - issue2
+articles:
+   - ["Jennings" , "link b"]
+   - ["Peterson" , "http:www.lasdkfa"]
+issue: 2
+segment: 4
+cover_image_url: http:wwwalsfka.alsf.gif
 ra_authors: francis, maude et al.
 ra_link: http:www.elifesciecns.org/asf
 insight_authors: Wouters

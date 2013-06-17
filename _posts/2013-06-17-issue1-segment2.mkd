@@ -1,9 +1,12 @@
 ---
 layout: segment
-title: The best thing in peter
+title: Segment2 from issue1
 categories:
  - segment
- - issue1
+ - issue2
+articles:
+   - ["Frederick et al." , "link b"]
+   - ["Williams" , "http:www.lasdkfa"]
 ra_authors: francis, maude et al.
 ra_link: http:www.elifesciecns.org/asf
 insight_authors: Wouters
