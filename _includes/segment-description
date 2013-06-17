@@ -1,0 +1,6 @@
+
+
+<hr>
+{{ post.title }} {{ post.insight_authors }}
+{{ post.content }}
+<hr>
