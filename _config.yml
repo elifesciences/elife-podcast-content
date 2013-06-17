@@ -28,3 +28,4 @@ lsi:         false
 
 podcast_info:
     subscribe_url: http:subscribe
+    interview_base_url: http://elife.elifesiences.org/podcast/
