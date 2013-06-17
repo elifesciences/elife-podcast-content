@@ -1,17 +1,20 @@
 ---
 layout: episode
-title: eLife podcast homepage
+title: eLife podcast episode homepage
 ---
 
-This is an example episode This is the text that describes the overall episode. 
+{% for post in site.posts %}
+	{% if post.categories contains 'description' and post.categories contains 'issue1' %}
+{{ post.content }}
+	{% endif %}
+{% endfor %}
+
+{% for post in site.posts %}
+	{% if post.categories contains 'segment' and post.categories contains 'issue1' %}
+		{% include segment-description %}
+	{% endif %}
+{% endfor %}
+
 
 {% include sidebar %}
 
-
-{% highlight ruby %}
-def foo
-  puts 'foo'
-end
-{% endhighlight %}
-
-{{ page.title }}
