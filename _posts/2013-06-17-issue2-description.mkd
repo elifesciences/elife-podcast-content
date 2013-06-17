@@ -1,0 +1,11 @@
+---
+layout: segment
+title: description for episode two
+categories:
+  - description
+  - issue
+  - issue1
+---
+
+This is the description for episode two, yay! And this is something **in bold**
+This is _italic_, yay!!
