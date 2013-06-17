@@ -1,6 +1,43 @@
 
 
+<div id="podcast-segment" >
+
+	    {% if post.cover_image_url %}
+		<div id="cover_image">
+        	<a href="{{ post.cover_image_url }}"> Cover image goes here </a>
+		</div>
+        {% endif %}
+
+	<div id="segment-title">
+	  <a href="{{ site.interview_base_url }}/{{ post.issue }}/{{ post.segment }}">{{ post.title }}</a>	
+	</div>
+
+	<div id="segment-content">
+		{{ post.content }}
+	</div>
+	
+	<div id="related-links">
+        {% if post.articles %}
+		<div id="ra">
+			{% for article in post.articles %}
+        	<a href="{{ article[1] }}">Research article by {{ article[0] }} </a>
+        	{% endfor %}
+		</div>
+        {% endif %}
+
+        {% if post.insight_link %}
+		<div id="insight">
+        	<a href="{{ post.insight_link }}">Insight by {{ post.insight_authors }} </a>
+		</div>
+        {% endif %}
+
+        {% if post.editorial_link %}
+		<div id="editorial">
+        	<a href="{{ post.editorial_link }}"> Editorial </a>
+		</div>
+        {% endif %}
+
+	</div>
+	
 <hr>
-{{ post.title }} {{ post.insight_authors }}
-{{ post.content }}
-<hr>
+</div>
