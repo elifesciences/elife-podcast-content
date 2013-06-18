@@ -27,5 +27,5 @@ url:         http://localhost:4000
 lsi:         false
 
 podcast_info:
-    subscribe_url: http:subscribe
+    subscribe_url: http://subscribe.nakedsicnets.com
     interview_base_url: http://elife.elifesiences.org/podcast/
