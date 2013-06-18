@@ -2,6 +2,70 @@
 <!doctype html>
 <html lang=en>
 <head>
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html>
+<html lang="en" dir="ltr" version="HTML+RDFa+MathML 1.1"
+  xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xmlns:mml="http://www.w3.org/1998/Math/MathML">
+  <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book#" >
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="http://dex3165296d6d.cloudfront.net/sites/default/themes/elife/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, minimum-scale=1, user-scalable=no" />
+<link rel="shortlink" href="/node/1935" />
+<link rel="dns-prefetch" href="//dex3165296d6d.cloudfront.net" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<link rel="canonical" href="/scope" />
+  <title>Scope of the journal | eLife</title>  
+  <link type="text/css" rel="stylesheet" href="http://dex3165296d6d.cloudfront.net/sites/default/files/css/cdn_css_4_JikTDtsDIpjjbKqo1NoPoUkSUlCYxI-r2TYcs58-8.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://dex3165296d6d.cloudfront.net/sites/default/files/css/cdn_css_hR-iZ_yz_txFBJ9GrjlvsKYDqZzImBb2HpX-zvLFeyY.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://dex3165296d6d.cloudfront.net/sites/default/files/css/cdn_css_CnSZYdYtLJElapstW3sgl8PN450NqURmYeYcetA2xUQ.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://dex3165296d6d.cloudfront.net/sites/default/files/css/cdn_css_ARBVOSJHE9q5olHK4_W3m3CeEBdNMNCglZ_yL98nxZc_highwire.style.highwire.css.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://dex3165296d6d.cloudfront.net/sites/default/files/css/cdn_css_didOQohe3VMMIqiOJHWM0kwNFiB6InJDop6MHsPbcMU.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://dex3165296d6d.cloudfront.net/sites/default/files/css/cdn_css_AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://dex3165296d6d.cloudfront.net/sites/default/files/css/cdn_css_yl78d1Daj-EkC_2FeylUtLTs76l5BGVUYEE9viB9zd8.css" media="print" />
+<link type="text/css" rel="stylesheet" href="http://dex3165296d6d.cloudfront.net/sites/default/files/css/cdn_css_cUq3fVkgrIwFYF-C8CqfD4ykcumyzUQJmSYV1rxEzb8.css" media="all" />
+
+<!--[if (lt IE 9)&(!IEMobile)]>
+<link type="text/css" rel="stylesheet" href="http://dex3165296d6d.cloudfront.net/sites/default/files/css/cdn_css_Em-iMG7TnYK-dYVmlYU0KAwmzqZ7SAH4Qo4MxG7ukxI.css" media="all" />
+<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<link type="text/css" rel="stylesheet" href="http://dex3165296d6d.cloudfront.net/sites/default/files/css/cdn_css_zMVEj429Tf1tmc-cKaTtYYwuPkAKlNYwkgk7MOZprFM.css" media="all" />
+<!--<![endif]-->
+  <link rel="stylesheet" type="text/css" href="http://fast.fonts.com/cssapi/c10f70b9-7e7a-4f33-9361-d43022ae343e.css"/>
+  <script type="text/javascript" src="http://elife.elifesciences.org/sites/all/modules/contrib/jquery_update/replace/jquery/jquery.min.js?v=1.5.2"></script>
+<script type="text/javascript" src="http://elife.elifesciences.org/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://elife.elifesciences.org/misc/drupal.js?moekxd"></script>
+<script type="text/javascript" src="http://elife.elifesciences.org/sites/all/libraries/colorbox/colorbox/jquery.colorbox-min.js?moekxd"></script>
+<script type="text/javascript" src="http://elife.elifesciences.org/sites/all/modules/contrib/colorbox/js/colorbox.js?moekxd"></script>
+<script type="text/javascript" src="http://elife.elifesciences.org/sites/default/modules/elife/elife_article/js/elife.javascript.anchorjump.js?moekxd"></script>
+<script type="text/javascript" src="http://elife.elifesciences.org/sites/default/modules/elife/elife_article/js/elife.javascript.disqus.js?moekxd"></script>
+<script type="text/javascript" src="http://elife.elifesciences.org/sites/all/modules/contrib/panels/js/panels.js?moekxd"></script>
+<script type="text/javascript" src="http://elife.elifesciences.org/sites/all/modules/contrib/google_analytics/googleanalytics.js?moekxd"></script>
+<script type="text/javascript">
+
+</script>
+<script type="text/javascript" src="http://elife.elifesciences.org/sites/default/themes/elife/js/theme-scripts.js?moekxd"></script>
+<script type="text/javascript" src="http://elife.elifesciences.org/sites/default/themes/elife/js/css_browser_selector.js?moekxd"></script>
+<script type="text/javascript" src="http://elife.elifesciences.org/sites/all/themes/contrib/omega/omega/js/jquery.formalize.js?moekxd"></script>
+<script type="text/javascript" src="http://elife.elifesciences.org/sites/all/themes/contrib/omega/omega/js/omega-mediaqueries.js?moekxd"></script>
+<script type="text/javascript" src="http://elife.elifesciences.org/sites/all/themes/contrib/omega/omega/js/omega-equalheights.js?moekxd"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"elife","theme_token":"p-x8MdSowiqWtMjgcstE8uEdfBxfqGkAm3A66CODdI4","js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/colorbox\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/default\/modules\/elife\/elife_article\/js\/elife.javascript.anchorjump.js":1,"sites\/default\/modules\/elife\/elife_article\/js\/elife.javascript.disqus.js":1,"sites\/all\/modules\/contrib\/panels\/js\/panels.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/default\/themes\/elife\/js\/theme-scripts.js":1,"sites\/default\/themes\/elife\/js\/css_browser_selector.js":1,"sites\/all\/themes\/contrib\/omega\/omega\/js\/jquery.formalize.js":1,"sites\/all\/themes\/contrib\/omega\/omega\/js\/omega-mediaqueries.js":1,"sites\/all\/themes\/contrib\/omega\/omega\/js\/omega-equalheights.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/highwire\/highwire\/highwire.style.highwire.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/contrib\/panels\/plugins\/layouts\/onecol\/onecol.css":1,"public:\/\/advanced_page\/1935\/css\/page-styles-0.3.css":1,"sites\/default\/themes\/elife\/css\/colors.css":1,"sites\/default\/themes\/elife\/css\/print.css":1,"sites\/all\/themes\/contrib\/omega\/alpha\/css\/alpha-reset.css":1,"sites\/all\/themes\/contrib\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/all\/themes\/contrib\/omega\/alpha\/css\/alpha-alpha.css":1,"sites\/all\/themes\/contrib\/omega\/omega\/css\/formalize.css":1,"sites\/all\/themes\/contrib\/omega\/omega\/css\/omega-text.css":1,"sites\/all\/themes\/contrib\/omega\/omega\/css\/omega-branding.css":1,"sites\/all\/themes\/contrib\/omega\/omega\/css\/omega-menu.css":1,"sites\/all\/themes\/contrib\/omega\/omega\/css\/omega-forms.css":1,"sites\/all\/themes\/contrib\/omega\/omega\/css\/omega-visuals.css":1,"sites\/default\/themes\/elife\/css\/font-awesome.css":1,"sites\/default\/themes\/elife\/css\/elife-colorbox.css":1,"sites\/default\/themes\/elife\/css\/global.css":1,"sites\/default\/themes\/elife\/css\/elife-text.css":1,"sites\/default\/themes\/elife\/css\/css3pie.css":1,"ie::normal::sites\/default\/themes\/elife\/css\/elife-elife-default.css":1,"ie::normal::sites\/default\/themes\/elife\/css\/elife-elife-default-normal.css":1,"ie::normal::sites\/default\/themes\/elife\/css\/grid\/elife_default\/normal\/elife-default-normal-32.css":1,"normal::sites\/default\/themes\/elife\/css\/elife-elife-default.css":1,"normal::sites\/default\/themes\/elife\/css\/elife-elife-default-normal.css":1,"sites\/default\/themes\/elife\/css\/grid\/elife_default\/normal\/elife-default-normal-32.css":1,"wide::sites\/default\/themes\/elife\/css\/elife-elife-default.css":1,"wide::sites\/default\/themes\/elife\/css\/elife-elife-default-wide.css":1,"sites\/default\/themes\/elife\/css\/grid\/elife_default\/wide\/elife-default-wide-32.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"omega":{"layouts":{"primary":"normal","order":["normal","wide"],"queries":{"normal":"all","wide":"all and (min-width: 1220px)"}}}});
+//--><!]]>
+</script>
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
 <meta charset=utf-8>
 <title> {{ page.title }} </title>
 </head>
