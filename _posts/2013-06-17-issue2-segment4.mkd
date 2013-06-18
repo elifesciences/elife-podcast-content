@@ -7,14 +7,17 @@ categories:
 articles:
    - ["Jennings" , "link b"]
    - ["Peterson" , "http:www.lasdkfa"]
+insights:
+   - ["Overbaker" , "link b"]
+   - ["Fredericks, Montaque et al." , "http:www.lasdkfa"]
+editorials:
+   - ["Editoral" , "link b"]
+   - ["Editoral 2" , "http:www.lasdkfa"]
 issue: 2
 segment: 4
 cover_image_url: http:wwwalsfka.alsf.gif
-ra_authors: francis, maude et al.
-ra_link: http:www.elifesciecns.org/asf
-insight_authors: Wouters
-insight_link: http:www.elifesciecns.org/asf
-editorial_link: http:www.elifesciecns.org/asf
 ---
 
-Here is some content
+Here is some content about this amazing podcast segment, I like the bit about bannanas. Also there is a **really** interesting compliment that can be found on [this blog][bl].
+
+[bl]: http://example.com 
