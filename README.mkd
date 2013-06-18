@@ -119,6 +119,11 @@ This should generate a link that looks like
 ## How we build an interview page
 
 
+## Filenames
+
+**this is really important but I haven't writtne it yet**
+
+
 ### Issues
 
 - how do we generate links internally to podcast pages? 
@@ -132,6 +137,7 @@ This should generate a link that looks like
 
 ### Changelog
 
+- 2013-06-18 updated readme to cover how we pull in tempaltes
 - 2013-06-18 updated description of how page templates are generated. 
 - 2013-06-18 added issues
 - 2013-06-18 added TODO
