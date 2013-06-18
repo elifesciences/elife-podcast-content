@@ -25,15 +25,19 @@
 		</div>
         {% endif %}
 
-        {% if post.insight_link %}
-		<div id="insight">
-        	<a href="{{ post.insight_link }}">Insight by {{ post.insight_authors }} </a>
+        {% if post.insights %}
+		<div id="ra">
+			{% for insight in post.insights %}
+        	<a href="{{ insight[1] }}">Insight by {{ insight[0] }} </a>
+        	{% endfor %}
 		</div>
         {% endif %}
 
-        {% if post.editorial_link %}
-		<div id="editorial">
-        	<a href="{{ post.editorial_link }}"> Editorial </a>
+        {% if post.editorials %}
+		<div id="ra">
+			{% for editorial in post.editorials %}
+        	<a href="{{ editorial[1] }}">{{ editorial[0] }} </a>
+        	{% endfor %}
 		</div>
         {% endif %}
 
