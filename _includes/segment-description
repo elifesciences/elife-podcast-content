@@ -9,7 +9,7 @@
         {% endif %}
 
 	<div id="segment-title">
-	  <a href="{{ site.interview_base_url }}/{{ post.issue }}/{{ post.segment }}">{{ post.title }}</a>	
+	  <a href="{{ site.podcast_info.interview_base_url }}/{{ post.issue }}/{{ post.segment }}">{{ post.title }}</a>	
 	</div>
 
 	<div id="segment-content">
