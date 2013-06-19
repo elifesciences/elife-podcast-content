@@ -1,0 +1,23 @@
+---
+layout: segment
+title: (6:23) Issue2 segment 4
+categories:
+ - segment
+ - issue2
+articles:
+   - ["Jennings" , "link b"]
+   - ["Peterson" , "http:www.lasdkfa"]
+insights:
+   - ["Overbaker" , "link b"]
+   - ["Fredericks, Montaque et al." , "http:www.lasdkfa"]
+editorials:
+   - ["Editoral" , "link b"]
+   - ["Editoral 2" , "http:www.lasdkfa"]
+issue: 2
+segment: 4
+cover_image_url: http:wwwalsfka.alsf.gif
+---
+
+Here is some content about this amazing podcast segment, I like the bit about bannanas. Also there is a **really** interesting compliment that can be found on [this blog][bl].
+
+[bl]: http://example.com 
