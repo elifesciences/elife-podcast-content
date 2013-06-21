@@ -15,6 +15,3 @@ title: eLife podcast episode homepage
 	{% endif %}
 {% endfor %}
 
-
-{% include sidebar %}
-
