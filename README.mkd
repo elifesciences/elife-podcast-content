@@ -124,6 +124,13 @@ This should generate a link that looks like
 **this is really important but I haven't writtne it yet**
 
 
+## Managing content folders
+
+It may be possible to setup template content folder automatically from the podcast feed. If this is true, then what we will do is add that template system into the repo, and it will create the templates files into a _post_templates directory. We will remove the _posts directory from this repo, and find another way to collaborate and share on the actual content. 
+
+
+
+
 ### Issues
 
 - how do we generate links internally to podcast pages? 

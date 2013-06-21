@@ -1,0 +1,11 @@
+
+  {{ content }}
+
+  <div class="podcast-utilities">
+    {% include subscribe %}
+    {% include back-link %}
+    {% include more-info %}
+  </div>
+
+
+

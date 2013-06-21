@@ -70,3 +70,168 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 <title> {{ page.title }} </title>
 </head>
 
+
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html>
+<html lang="en" dir="ltr" version="HTML+RDFa+MathML 1.1"
+  xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xmlns:mml="http://www.w3.org/1998/Math/MathML">
+  
+<body class="html not-front not-logged-in page-node page-node- page-node-1935 node-type-advanced-page context-scope">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div class="page clearfix no-panels-page" id="page">
+      <header id="section-header" class="section section-header">
+  <div id="zone-elife-bar-wrapper" class="zone-wrapper zone-elife-bar-wrapper clearfix">  
+  <div id="zone-elife-bar" class="zone zone-elife-bar clearfix container-32">
+    <div class="grid-32 region region-elife-bar" id="region-elife-bar">
+  <div class="region-inner region-elife-bar-inner">
+    <div class="block block-menu block-menu-elife-bar-menu block-menu-menu-elife-bar-menu odd block-without-title" id="block-menu-menu-elife-bar-menu">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <ul class="menu"><li class="first leaf menu-492 menu-home active"><a href="/" title="eLife">Home</a></li>
+<li class="leaf menu-494 menu-about-elife"><a href="http://www.elifesciences.org/about/" title="">About eLife</a></li>
+<li class="leaf menu-493 menu-submission-amp-review"><a href="http://submit.elifesciences.org" title="eLife manuscript management system">Submission &amp; Review</a></li>
+<li class="last leaf menu-495 menu-emelife-em-journal active"><a href="/" title=""><em>eLife</em> Journal</a></li>
+</ul>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix">  
+  <div id="zone-menu" class="zone zone-menu clearfix container-32">
+    <div class="grid-2 region region-menu" id="region-menu">
+  <div class="region-inner region-menu-inner">
+        <div class="block block-panels-mini block-jnl-elife-menu-bar block-panels-mini-jnl-elife-menu-bar odd block-without-title" id="block-panels-mini-jnl-elife-menu-bar">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="panel-display panel-1col clearfix" id="mini-panel-jnl_elife_menu_bar">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-block pane-menu-block-1"  id="main-menu-links-home">
+  
+        <h2 class="pane-title"><a href="/" title=""><span class="icon"></span><span class="icon icon-hover"></span><span class="title">Home</span></a></h2>
+    
+  
+  <div class="pane-content">
+    <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-460 menu-level-1">
+  <ul class="menu"><li class="first last leaf menu-mlid-465 menu-465 menu-browse"><a href="/browse" title="">Browse</a></li>
+</ul></div>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-elife-searchlist-quicksearch"  id="main-menu-search">
+  
+        <h2 class="pane-title"><a href="/elife/search"><span class="icon"></span><span class="icon icon-hover"></span><span class="title">Search<em> eLife</em></span></a></h2>
+    
+  
+  <div class="pane-content">
+    <form action="/elife/search" method="get" id="elife-searchlist-quicksearch-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-keys">
+ <input class="elife-quicksearch form-text" placeholder="search for..." type="text" id="edit-keys" name="keys" value="" size="60" maxlength="128" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /><a href="/elife/search" class="elife-advanced-search">Advanced search</a><input type="hidden" name="form_build_id" value="form-gUsZTl-0sn7AX7LPamdFAEYrhhHKZFX7Ra29BUHmL8o" />
+<input type="hidden" name="form_id" value="elife_searchlist_quicksearch_form" />
+</div></form>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-menu-block-2"  id="main-menu-links-about">
+  
+        <h2 class="pane-title"><a href="http://www.elifesciences.org/about/" title=""><span class="icon"></span><span class="icon icon-hover"></span><span class="title">About <em>eLife</em></span></a></h2>
+    
+  
+  <div class="pane-content">
+    <div class="menu-block-wrapper menu-block-2 menu-name-main-menu parent-mlid-462 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-469 menu-469 menu-aims-and-scope"><a href="http://www.elifesciences.org/the-journal/scope/" title="">Aims and scope</a></li>
+<li class="leaf menu-mlid-467 menu-467 menu-editors"><a href="http://www.elifesciences.org/about/elife-community/" title="">Editors</a></li>
+<li class="last leaf menu-mlid-468 menu-468 menu-editorial-process"><a href="http://www.elifesciences.org/the-journal/review-process/" title="">Editorial process</a></li>
+</ul></div>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-menu-block-4 no-title-icon"  id="main-menu-links-authors">
+  
+        <h2 class="pane-title"><a href="http://submit.elifesciences.org" title=""><span class="icon"></span><span class="icon icon-hover"></span><span class="title">For authors</span></a></h2>
+    
+  
+  <div class="pane-content">
+    <div class="menu-block-wrapper menu-block-4 menu-name-main-menu parent-mlid-463 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-466 menu-466 menu-guidelines-and-policies"><a href="http://submit.elifesciences.org/html/elife_author_instructions.html" title="">Guidelines and policies</a></li>
+<li class="last leaf menu-mlid-489 menu-489 menu-submit"><a href="http://submit.elifesciences.org" title="">Submit</a></li>
+</ul></div>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-menu-block-5 hide-menu-children no-title-icon"  id="main-menu-links-press">
+  
+        <h2 class="pane-title"><a href="http://www.elifesciences.org/news/for-the-press" title=""><span class="icon"></span><span class="icon icon-hover"></span><span class="title">For the press</span></a></h2>
+    
+  
+  <div class="pane-content">
+    <div class="menu-block-wrapper menu-block-5 menu-name-main-menu parent-mlid-461 menu-level-1">
+  <ul class="menu"><li class="first last leaf menu-mlid-490 menu-490 menu-for-the-press"><a href="http://www.elifesciences.org/news/for-the-press" title="">For the press</a></li>
+</ul></div>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-menu-block-6 hide-menu-children"  id="main-menu-links-alerts">
+  
+        <h2 class="pane-title"><a href="http://www.elifesciences.org/news/alerts-and-feeds" title=""><span class="icon"></span><span class="icon icon-hover"></span><span class="title">Alerts and feeds</span></a></h2>
+    
+  
+  <div class="pane-content">
+    <div class="menu-block-wrapper menu-block-6 menu-name-main-menu parent-mlid-464 menu-level-1">
+  <ul class="menu"><li class="first last leaf menu-mlid-491 menu-491 menu-alerts-and-feeds"><a href="http://www.elifesciences.org/news/alerts-and-feeds" title="">Alerts and feeds</a></li>
+</ul></div>
+  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+    </div>
+  </div>
+</div>  </div>
+</div>
+  </div>
+</div></header>    
+      <section id="section-content" class="section section-content">
+  <div id="zone-header-wrapper" class="zone-wrapper zone-header-wrapper clearfix">  
+  <div id="zone-header" class="zone zone-header clearfix container-32">
+    <div class="grid-7 region region-header-second push-25" id="region-header-second">
+  <div class="region-inner region-header-second-inner">
+      </div>
+</div><div class="grid-22 region region-header-first pull-5 prefix-1" id="region-header-first">
+  <div class="region-inner region-header-first-inner">
+  	      <div id="breadcrumb"><ul class="breadcrumbs clearfix"><li class="crumb breadcrumb-0 first last"><span class="wrapper"><a href="/"><span class="logo"></span> e<strong>LIFE</strong></a></span></li></ul></div>
+     
+      </div>
+</div>  </div>
+</div><div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">  
+  <div id="zone-content" class="zone zone-content clearfix container-32">    
+		    <div class="grid-30 region region-content push-2" id="region-content">
+  <div class="region-inner region-content-inner">
+    <a id="main-content"></a>
+                <h1 class="title" id="page-title">{{ page.title }}</h1>
+                        <div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <article class="node node-advanced-page node-promoted node-published node-not-sticky author-elife odd clearfix" id="node-advanced-page-1935">
+            
+  
+  <div class="content clearfix">
