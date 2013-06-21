@@ -1,11 +1,11 @@
-<div id="remaining-sidebar">
-	<div id="about">
+<div class="more-info">
+	<div class="about">
 		About This Podcast
 	</div>
-	<div id="contact">
+	<div class="contact">
 		Contact us
 	</div>
-	<div id="licence">
+	<div class="licence">
 		It's all CC-BY
 	</div>
 </div>

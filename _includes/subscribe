@@ -1,4 +1,4 @@
-<div id="subscribe">
+<div class="subscribe">
 Subscribe link
    <a href="{{ site.podcast_info.subscribe_url }}">{{ site.podcast_info.subscribe_url }}</a>
 </div>
