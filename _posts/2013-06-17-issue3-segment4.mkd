@@ -1,9 +1,9 @@
 ---
 layout: segment
-title: (6:23) Issue2 segment 4
+title: (6:23) Issue3 segment 4
 categories:
  - segment
- - issue2
+ - issue3
 articles:
    - ["Jennings" , "link b"]
    - ["Peterson" , "http:www.lasdkfa"]
@@ -13,11 +13,9 @@ insights:
 editorials:
    - ["Editoral" , "link b"]
    - ["Editoral 2" , "http:www.lasdkfa"]
-issue: 2
+issue: 3
 segment: 4
-cover_image_url: http:wwwalsfka.alsf.gif
+cover_image_url: http://cdn.elifesciences.org/podcast/image001.png
 ---
 
-Here is some content about this amazing podcast segment, I like the bit about bannanas. Also there is a **really** interesting compliment that can be found on [this blog][bl].
-
-[bl]: http://example.com 
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.

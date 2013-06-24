@@ -4,8 +4,8 @@ title: description for episode two
 categories:
   - description
   - issue
-  - issue1
+  - issue2
+cover_image_url: http://cdn.elifesciences.org/podcast/image001.png
 ---
 
-This is the description for episode two, yay! And this is something **in bold**
-This is _italic_, yay!!
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
