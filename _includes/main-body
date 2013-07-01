@@ -8,6 +8,7 @@
     {% include back-link %}
     {% include more-info %}
 </aside>
+
 </article>
 
 
