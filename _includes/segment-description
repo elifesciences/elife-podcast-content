@@ -5,9 +5,9 @@
 	  <a href="{{ site.podcast_info.interview_base_url }}/{{ post.issue }}/{{ post.segment }}">{{ post.title }}</a>	
 	</h2>
 
-	<p class="chapter-desc">
+	<div class="chapter-desc">
 	 {{ post.content }}
-	</p>
+	</div>
 	
 	<footer class="chapter-foot">
         {% if post.articles %}

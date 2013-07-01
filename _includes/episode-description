@@ -7,7 +7,7 @@
 <img class="chapter-image" src="{{ post.cover_image_url }}" alt="episode cover image" />
 {% endif %}
 
-<p class="episode-desc">{{ post.content }}</p>
+<div class="episode-desc">{{ post.content }}</div>
 
 <ul class="episode-actions">
    <li class="listen">Listen</li>
