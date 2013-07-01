@@ -1,11 +1,3 @@
-<div class="more-info">
-	<div class="about">
-		About This Podcast
-	</div>
-	<div class="contact">
-		Contact us
-	</div>
-	<div class="licence">
-		It's all CC-BY
-	</div>
-</div>
+<div class="about">About This Podcast</div>
+<div class="contact">Contact us</div>
+<div class="licence">CC-BY info</div>
