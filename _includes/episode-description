@@ -1,0 +1,16 @@
+
+
+<!-- This <img> may or may not need to be here, depending on what this
+                site's convention is on locating images in this position. -->
+
+{% if post.cover_image_url %}
+<img class="chapter-image" src="{{ post.cover_image_url }}" alt="episode cover image" />
+{% endif %}
+
+<p class="episode-desc">{{ post.content }}</p>
+
+<ul class="episode-actions">
+   <li class="listen">Listen</li>
+   <li class="download">Download</li>
+   <li class="subscribe">Subscribe</li>
+</ul>
