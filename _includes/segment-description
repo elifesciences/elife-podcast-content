@@ -16,9 +16,9 @@
 		{{ post.content }}
 	</div>
 	
-	<div id="related-links">
+	<footer class="chapter-foot">
         {% if post.articles %}
-		<div id="ra">
+		<div id="research-article-links">
 			{% for article in post.articles %}
         	<a href="{{ article[1] }}">Research article by {{ article[0] }} </a>
         	{% endfor %}
@@ -26,7 +26,7 @@
         {% endif %}
 
         {% if post.insights %}
-		<div id="ra">
+		<div id="insight-links">
 			{% for insight in post.insights %}
         	<a href="{{ insight[1] }}">Insight by {{ insight[0] }} </a>
         	{% endfor %}
@@ -34,12 +34,13 @@
         {% endif %}
 
         {% if post.editorials %}
-		<div id="ra">
+		<div id="editorial-links">
 			{% for editorial in post.editorials %}
         	<a href="{{ editorial[1] }}">{{ editorial[0] }} </a>
         	{% endfor %}
 		</div>
         {% endif %}
+    </footer>
 
 </section>
 	
