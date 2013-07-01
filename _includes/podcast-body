@@ -1,0 +1,13 @@
+
+<article>
+
+  {{ content }}
+
+<aside class="more-info" role="complementary">
+    {% include subscribe %}
+    {% include more-info %}
+</aside>
+
+</article>
+
+
