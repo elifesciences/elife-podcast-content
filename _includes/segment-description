@@ -1,6 +1,6 @@
 
 
-<div id="podcast-segment" >
+<section class="chapter">
 
 	    {% if post.cover_image_url %}
 		<div id="cover_image">
@@ -41,7 +41,5 @@
 		</div>
         {% endif %}
 
-	</div>
+</section>
 	
-<hr>
-</div>
