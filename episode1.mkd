@@ -12,10 +12,9 @@ This provides the text at the top of the page. We anticipate only one post shoul
 The second block iterates over the segment posts for that issue, and there may be multiple such posts.
 {% endcomment %}
 
-
 {% for post in site.posts %}
     {% if post.categories contains 'description' and post.categories contains 'issue1' %}
-{{ post.content }} {% comment %} bad indent forced by template {% endcomment %}
+		{% include episode-description %}
     {% endif %}
 {% endfor %}
 
