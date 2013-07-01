@@ -5,10 +5,6 @@
 	  <a href="{{ site.podcast_info.interview_base_url }}/{{ post.issue }}/{{ post.segment }}">{{ post.title }}</a>	
 	</h2>
 
-	    {% if post.cover_image_url %}
-	    <img class="chapter-image" src="{{ post.cover_image_url }}" alt="episode cover image" />
-        {% endif %}
-
 	<p class="chapter-desc">
 	 {{ post.content }}
 	</p>
