@@ -1,1 +1,1 @@
-<div class="subscribe">Subscribe link<a href="{{ site.podcast_info.subscribe_url }}">{{ site.podcast_info.subscribe_url }}</a></div>
+<div class="subscribe">Subscribe link<a href="{{ site.podcast_info.subscribe_url }}">Subscribe to the eLife Podcast</a></div>
