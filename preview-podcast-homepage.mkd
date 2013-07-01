@@ -1,0 +1,10 @@
+l---
+layout: preview-homepage
+title: eLife podcast episode homepage
+---
+
+{% for post in site.posts %}
+	{% if post.categories contains 'description' and post.categories contains 'issue' %}
+		{% include issue-description %}
+	{% endif %}
+{% endfor %}
