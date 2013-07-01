@@ -1,11 +1,13 @@
 
+<article>
+
   {{ content }}
 
-  <div class="podcast-utilities">
+<aside class="more-info" role="complementary">
     {% include subscribe %}
     {% include back-link %}
     {% include more-info %}
-  </div>
-
+</aside>
+</article>
 
 
