@@ -1,0 +1,283 @@
+/* hide title from  */
+h1#title.page-title{
+    display: none;
+}
+
+    .podcast {
+    font-family: avenir;
+}
+
+.podcast a, a:visited {
+    color: #0e94cb;
+}
+
+/* START: eLife podcast header with logo */
+.podcast-title {
+    background-color: #65256c;
+    height: 80px;
+    width: 100%;
+}
+
+.podcast-detail-title {
+    background-color: #fff;
+    margin-top: 15px;
+    height: 64px;
+    width: 100%;
+    border-bottom: #ccc solid 1px;
+}
+
+.podcast-detail-title h1 {
+    font-weight: 600;
+    font-family: avenir;
+}
+
+.podcast-elife-logo {
+    float: left;
+    display: inline-block;
+    background: url('http://cdn.elifesciences.org/podcast/sprite.png') no-repeat -110px -64px;
+
+    width: 110px;
+    height: 110px;
+}
+
+.podcast-elife-title {
+    float: right;
+    font-size: 2.3em;
+    color: white;
+    font-weight: lighter;
+    padding: 30px;
+}
+
+.heavy {
+    font-weight: bolder;
+}
+
+/* END: eLife podcast header with logo */
+
+/* START: Podcast Sidebar  */
+.podcast-sidebar {
+    margin-left: 27px;
+    color: #6d6e70;
+}
+
+.podcast-sidebar-item {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    border-bottom: solid 1px #ccc;
+}
+
+#podcast-subscribe {
+    margin-top: -12px;
+}
+
+.podcast-sidebar-icon {
+    float: left;
+    display: inline-block;
+    margin-left: -10px;
+    margin-right: 10px;
+}
+
+.podcast-subscribe-icon {
+    background: url('http://cdn.elifesciences.org/podcast/sprite.png') 0 0;
+    width: 45px;
+    height: 40px;
+}
+
+.podcast-back-icon {
+    background: url('http://cdn.elifesciences.org/podcast/sprite.png') 0 155px;
+    width: 46px;
+    height: 40px;
+}
+
+#podcast-copyright {
+    font-size: 0.8em;
+}
+
+/* END: Podcast Sidebar  */
+
+/* START: Podcast Items */
+
+.podcast-item {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.podcast-item .thumbnail {
+    float: left;
+    width: 100px;
+}
+
+.podcast-item .information {
+    float: left;
+    margin-left: 15px;
+    width: 430px;
+}
+
+.podcast-item .information h4 {
+    color: #0e94cb;
+    font-weight: bolder;
+    line-height: 1em;
+}
+
+.podcast-item .information p {
+    font-size: 0.9642em;
+    line-height: 1.3em;
+    margin-bottom: 4px;
+}
+
+.thumbail {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+.podcast-thumbail {
+    width: 100px;
+    height: 100px;
+}
+
+.podcast-thumbail {
+    float: left;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+.podcast-thumbail div + span {
+    position: absolute;
+    z-index: 1;
+    top: 72px;
+    right: 70px;
+}
+
+.podcast-thumbnail-listen {
+    display: inline-block;
+    background: url('http://cdn.elifesciences.org/podcast/sprite.png') no-repeat -12px -84px;
+    width: 32px;
+    height: 30px;
+}
+
+.episode-actions .listen {
+    float: left;
+    display: inline-block;
+    background: url('http://cdn.elifesciences.org/podcast/sprite.png') no-repeat -14px -150px;
+    width: 13px;
+    height: 11px;
+    margin-right: 4px;
+    margin-top: 5px;
+}
+
+.episode-actions .download {
+    float: left;
+    display: inline-block;
+    background: url('http://cdn.elifesciences.org/podcast/sprite.png') no-repeat -14px -134px;
+    width: 11px;
+    height: 12px;
+    margin-right: 4px;
+    margin-top: 5px;
+}
+
+.episode-actions .subscribe {
+    float: left;
+    display: inline-block;
+    background: url('http://cdn.elifesciences.org/podcast/sprite.png') no-repeat -16px -117px;
+    width: 11px;
+    height: 12px;
+    margin-right: 4px;
+    margin-top: 5px;
+}
+
+.episode-actions {
+    list-style: none;
+    display: inline;
+}
+
+.episode-actions li {
+    float: left;
+    margin-right: 30px;
+}
+
+/* END: Podcast Items */
+
+/* START: Podcast Program Page Additions */
+
+/* END: Podcast Program Page Additions */
+
+/* START: Common Items */
+
+.pull-right {
+    float: right;
+}
+
+.podcast-listen-big {
+    margin-left: -10px;
+    display: inline-block;
+    background: url('http://cdn.elifesciences.org/podcast/sprite.png') no-repeat -15px -167px;
+    width: 27px;
+    height: 27px;
+    padding-left: 35px;
+    padding-top: 2px;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.podcast-detail-left {
+    width: 105px;
+    margin-right: 5px;
+}
+
+.podcast-episodes {
+    margin-left: 115px;
+    border-top: 1px solid #ccc;
+}
+
+.podcast-episode {
+    margin-top: 15px;
+}
+
+.podcast-episode-sidebar {
+    float: left;
+    width: 30px;
+}
+
+.podcast-episode-content {
+    float: left;
+    margin-top: 7px;
+    width: 400px;
+}
+
+.podcast-episode-content p {
+    font-size: 0.9em;
+    line-height: 1.2em;
+    margin-bottom: 10px;
+}
+
+.podcast-episode-content h6 {
+    font-weight: 600;
+    font-size: 1em;
+    color: #0e94cb;
+}
+
+.podcast-episode-content ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.podcast-episode-content ul li {
+    float: left;
+    margin-right: 5px;
+}
+
+.podcast-by {
+    color: #0e94cb;
+}
+
+.podcast-insight {
+    color: #629f43;
+}
+
+.podcast-type {
+    color: #732060;
+}
+
+/* END: Common Items */
