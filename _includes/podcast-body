@@ -1,13 +1,23 @@
+<div class="content grid-19 clearfix podcast">
+
+
+<div class="podcast-title clearfix">
+<span class="podcast-elife-logo"></span>
+<span class="podcast-elife-title">The <span class="heavy">eLife</span> Podcast</span>
+</div>
+
 
 <article>
-
+  <div class="clearfix">
+  </div>
   {{ content }}
+</article>
+</div>
 
+<div class="podcast-sidebar grid-8 clearfix">
 <aside class="more-info" role="complementary">
     {% include subscribe %}
     {% include more-info %}
 </aside>
-
-</article>
-
+</div>
 

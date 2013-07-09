@@ -1,6 +1,6 @@
 ---
 layout: homepage
-title: eLife podcast episode homepage
+title: The eLife Podcast
 ---
 
 {% for post in site.posts %}

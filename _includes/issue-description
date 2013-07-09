@@ -1,23 +1,25 @@
 
+<!-- This <img> may or may not need to be here, depending on what this
+                site's convention is on locating images in this position. -->
 
-<section class="episode">
-	<h2 class="episode-heading">
-	  <a href="{{ site.podcast_info.interview_base_url }}/{{ post.issue }}/{{ post.segment }}">{{ post.title }}</a>	
-	</h2>
+{% if post.cover_image_url %}
+<div class="podcast-thumbail">
+  <img class="podcast-thumbail" src="{{ post.cover_image_url }}" alt="episode cover image" />
+</div>
+{% endif %}
 
-	    {% if post.cover_image_url %}
-	    <img class="episode-image" src="{{ post.cover_image_url }}" alt="episode cover image" />
-        {% endif %}
+<div class="information">
+    <h4>{{ post.title }}</h4>
 
-	<div class="episode-desc">
-	 {{ post.content }}
-	</div>
+    {{ post.content }}
 
 <ul class="episode-actions">
-   <li class="listen">Listen</li>
-   <li class="download">Download</li>
-   <li class="subscribe">Subscribe</li>
+<li><a href="/listen"><span class="listen"></span> <span
+        style="margin-top:-5px">Listen</span></a></li>
+<li><a href="/listen"><span class="download"></span>Download</a>
+</li>
+<li><a href="/listen"><span
+        class="subscribe"></span>Subscribe</a></li>
 </ul>
+</div>
 
-</section>
-	
