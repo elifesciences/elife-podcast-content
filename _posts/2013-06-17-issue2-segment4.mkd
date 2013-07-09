@@ -1,9 +1,9 @@
 ---
 layout: segment
-title: (6:23) Issue2 segment 4
+title: (6:23) episode2 segment 4
 categories:
  - segment
- - issue3
+ - episode3
 articles:
    - ["Jennings" , "link b"]
    - ["Peterson" , "http:www.lasdkfa"]
@@ -13,7 +13,7 @@ insights:
 editorials:
    - ["Editoral" , "link b"]
    - ["Editoral 2" , "http:www.lasdkfa"]
-issue: 2
+episode: 2
 segment: 4
 cover_image_url: http://cdn.elifesciences.org/podcast/thumbnail-1.png
 ---

@@ -1,9 +1,9 @@
 ---
 layout: interview
-title: (6:23) Issue1 interview 1
+title: (6:23) episode1 interview 1
 categories:
  - interview
- - issue1
+ - episode1
 articles:
    - ["Jennings" , "link b"]
    - ["Peterson" , "http:www.lasdkfa"]

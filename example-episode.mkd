@@ -4,13 +4,13 @@ title: eLife podcast episode homepage
 ---
 
 {% for post in site.posts %}
-	{% if post.categories contains 'description' and post.categories contains 'issue1' %}
+	{% if post.categories contains 'description' and post.categories contains 'episode1' %}
 {{ post.content }}
 	{% endif %}
 {% endfor %}
 
 {% for post in site.posts %}
-	{% if post.categories contains 'segment' and post.categories contains 'issue1' %}
+	{% if post.categories contains 'segment' and post.categories contains 'episode1' %}
 		{% include segment-description %}
 	{% endif %}
 {% endfor %}

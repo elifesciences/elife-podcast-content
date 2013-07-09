@@ -3,8 +3,8 @@ layout: segment
 title: description for episode two
 categories:
   - description
-  - issue
-  - issue2
+  - episode
+  - episode2
 cover_image_url: http://cdn.elifesciences.org/podcast/thumbnail-1.png
 ---
 

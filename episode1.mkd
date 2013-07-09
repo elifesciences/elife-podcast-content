@@ -6,20 +6,20 @@ title: eLife podcast episode homepage
 {% comment %} 
 The page template has two main blocks. 
 
-The first block should call a post with the issue number category and the category description.
+The first block should call a post with the episode number category and the category description.
 This provides the text at the top of the page. We anticipate only one post should satisfy this criteria
 
-The second block iterates over the segment posts for that issue, and there may be multiple such posts.
+The second block iterates over the segment posts for that episode, and there may be multiple such posts.
 {% endcomment %}
 
 {% for post in site.posts %}
-    {% if post.categories contains 'description' and post.categories contains 'issue1' %}
+    {% if post.categories contains 'description' and post.categories contains 'episode1' %}
 		{% include episode-description %}
     {% endif %}
 {% endfor %}
 
 {% for post in site.posts %}
-    {% if post.categories contains 'segment' and post.categories contains 'issue1' %}
+    {% if post.categories contains 'segment' and post.categories contains 'episode1' %}
         {% include segment-description %}
     {% endif %}
 {% endfor %}

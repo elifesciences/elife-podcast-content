@@ -4,7 +4,7 @@ title: eLife podcast episode homepage
 ---
 
 {% for post in site.posts %}
-	{% if post.categories contains 'description' and post.categories contains 'issue' %}
-		{% include issue-description %}
+	{% if post.categories contains 'description' and post.categories contains 'episode' %}
+		{% include episode-description %}
 	{% endif %}
 {% endfor %}
