@@ -268,15 +268,15 @@ h1#title.page-title{
     margin-right: 5px;
 }
 
-.podcast-by {
+.research-article-links a:link{
     color: #0e94cb;
 }
 
-.podcast-insight {
+.insight-links a:link{
     color: #629f43;
 }
 
-.podcast-type {
+.editorial-links a:link{
     color: #732060;
 }
 

@@ -1,1 +1,11 @@
-<div class="subscribe"><a href="{{ site.podcast_info.subscribe_url }}">Subscribe to the eLife Podcast RSS feed</a></div>
+<div class="podcast-sidebar-item clearfix" id="podcast-subscribe">
+    
+    <span class="podcast-sidebar-icon podcast-subscribe-icon"></span>
+
+    <div>
+     <p>
+      </span> <a href="">Subscribe to the eLife Podcast RSS feed</a>
+     </p>
+    </div>
+
+</div>

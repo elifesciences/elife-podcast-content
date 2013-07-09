@@ -1,9 +1,18 @@
 
 
+<!-- start of repeating block -->
 <section class="chapter">
-	<h2 class="chapter-heading">
+<div class="podcast-episode">
+
+<div class="podcast-episode-sidebar">
+    <a href="/listen"><span class="podcast-thumbnail-listen"></span></a>
+</div>
+
+<div class="podcast-episode-content">
+
+	<h6 class="chapter-heading">
 	  <a href="{{ site.podcast_info.interview_base_url }}/{{ post.issue }}/{{ post.segment }}">{{ post.title }}</a>	
-	</h2>
+	</h6>
 
 	<div class="chapter-desc">
 	 {{ post.content }}
@@ -11,7 +20,7 @@
 	
 	<footer class="chapter-foot">
         {% if post.articles %}
-		<div id="research-article-links">
+		<div class="research-article-links">
 			{% for article in post.articles %}
         	<a href="{{ article[1] }}">Research article by {{ article[0] }} </a>
         	{% endfor %}
@@ -19,7 +28,7 @@
         {% endif %}
 
         {% if post.insights %}
-		<div id="insight-links">
+		<div class="insight-links">
 			{% for insight in post.insights %}
         	<a href="{{ insight[1] }}">Insight by {{ insight[0] }} </a>
         	{% endfor %}
@@ -27,12 +36,17 @@
         {% endif %}
 
         {% if post.editorials %}
-		<div id="editorial-links">
+		<div class="editorial-links">
 			{% for editorial in post.editorials %}
         	<a href="{{ editorial[1] }}">{{ editorial[0] }} </a>
         	{% endfor %}
 		</div>
         {% endif %}
     </footer>
+</div>
+</div>
 </section>
-	
+<div class="clearfix">
+</div>
+
+<!-- end of repeating block -->

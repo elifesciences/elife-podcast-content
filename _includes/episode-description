@@ -1,16 +1,27 @@
 
-
 <!-- This <img> may or may not need to be here, depending on what this
                 site's convention is on locating images in this position. -->
 
 {% if post.cover_image_url %}
-<img class="chapter-image" src="{{ post.cover_image_url }}" alt="episode cover image" />
+<div class="podcast-thumbail">
+  <img class="podcast-thumbail" src="{{ post.cover_image_url }}" alt="episode cover image" />
+</div>
 {% endif %}
 
-<div class="episode-desc">{{ post.content }}</div>
+<div class="information">
+    <h4>{{ post.title }}</h4>
 
-<ul class="episode-actions">
-   <li class="listen">Listen</li>
-   <li class="download">Download</li>
-   <li class="subscribe">Subscribe</li>
-</ul>
+    {{ post.content }}
+
+    <ul class="episode-actions">
+        <li><a href="/listen"><span
+                class="podcast-listen-big">Listen</span></a></li>
+    </ul>
+    <ul class="pull-right episode-actions">
+        <li><a href="/listen"><span class="download"></span>Download</a>
+        </li>
+        <li><a href="/listen"><span
+                class="subscribe"></span>Subscribe</a></li>
+    </ul>
+</div>
+

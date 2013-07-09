@@ -1,6 +1,6 @@
 ---
 layout: preview-episode
-title: eLife podcast episode homepage
+title: eLife podcast July 2013
 ---
 
 {% comment %} 
@@ -12,15 +12,22 @@ This provides the text at the top of the page. We anticipate only one post shoul
 The second block iterates over the segment posts for that issue, and there may be multiple such posts.
 {% endcomment %}
 
+
+<div class="podcast-item">
 {% for post in site.posts %}
     {% if post.categories contains 'description' and post.categories contains 'issue1' %}
 		{% include episode-description %}
     {% endif %}
 {% endfor %}
+</div>
+<div class="clearfix">
+</div> 
+<!-- before the repeating loop -->
 
+<div class="podcast-episodes">
 {% for post in site.posts %}
     {% if post.categories contains 'segment' and post.categories contains 'issue1' %}
         {% include segment-description %}
     {% endif %}
 {% endfor %}
-
+</div>

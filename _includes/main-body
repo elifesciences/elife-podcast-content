@@ -1,14 +1,22 @@
 
+
+<div class="content grid-19 clearfix podcast">
+
+<div class="podcast-detail-title clearfix">
+    <h1>{{ page.title }}</h1>
+</div>
+
 <article>
-
+  <div class="clearfix"></div>
   {{ content }}
+</article>
+</div>
 
+<div class="podcast-sidebar grid-8 clearfix">
 <aside class="more-info" role="complementary">
     {% include subscribe %}
     {% include back-link %}
     {% include more-info %}
 </aside>
-
-</article>
-
+</div>
 
