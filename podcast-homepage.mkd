@@ -5,6 +5,6 @@ title: The eLife Podcast
 
 {% for post in site.posts %}
 	{% if post.categories contains 'description' and post.categories contains 'episode' %}
-		{% include episode-description %}
+		{% include episode-cover-description %}
 	{% endif %}
 {% endfor %}
