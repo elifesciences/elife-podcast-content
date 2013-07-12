@@ -1,4 +1,4 @@
-/* hide title from  */
+ hide title from  */
 h1#title.page-title{
     display: none;
 }
@@ -100,6 +100,7 @@ h1#title.page-title{
 .podcast-item {
     width: 100%;
     margin-top: 20px;
+    padding-bottom:20px;
 }
 
 .podcast-item .thumbnail {
@@ -157,37 +158,51 @@ h1#title.page-title{
     height: 30px;
 }
 
-.episode-actions .listen {
-    float: left;
-    display: inline-block;
-    background: url('http://cdn.elifesciences.org/podcast/sprite.png') no-repeat -14px -150px;
-    width: 13px;
-    height: 11px;
-    margin-right: 4px;
-    margin-top: 5px;
-}
-
-.episode-actions .download {
-    float: left;
-    display: inline-block;
-    background: url('http://cdn.elifesciences.org/podcast/sprite.png') no-repeat -14px -134px;
-    width: 11px;
-    height: 12px;
-    margin-right: 4px;
-    margin-top: 5px;
-}
-
-.episode-actions .subscribe {
-    float: left;
-    display: inline-block;
-    background: url('http://cdn.elifesciences.org/podcast/sprite.png') no-repeat -16px -117px;
-    width: 11px;
-    height: 12px;
-    margin-right: 4px;
-    margin-top: 5px;
-}
 
 .episode-actions {
+    list-style: none;
+    list-style-type: none;
+    clear: both;
+    float:none;
+}
+
+/* NOTE: high(-er-than-we'd-like) value selectors ahead. Required to override some high 
+            value selectors used in files we can't touch. DM 12 July 2013 */
+
+/* High-value-start */
+ul.episode-actions {
+    margin: 0;
+    padding: 0;
+
+}
+/* High-value-end */
+
+.episode-actions li {
+    float: left;
+    padding-right: 1em;
+    background-repeat: no-repeat;
+}
+
+.episode-action {
+    padding-left: 18px;
+}
+
+.episode-action.listen {
+    background-image: url('http://cdn.elifesciences.org/podcast/sprite.png');
+    background-position: -14px -146px;
+}
+
+.episode-action.download {
+    background-image: url('http://cdn.elifesciences.org/podcast/sprite.png');
+    background-position: -14px -131px;
+}
+
+.episode-action.subscribe {
+    background-image: url('http://cdn.elifesciences.org/podcast/sprite.png');
+    background-position: -14px -115px;
+}
+
+/*.episode-actions {
     list-style: none;
     display: inline;
 }
@@ -195,7 +210,7 @@ h1#title.page-title{
 .episode-actions li {
     float: left;
     margin-right: 30px;
-}
+}*/
 
 /* END: Podcast Items */
 
@@ -280,4 +295,4 @@ h1#title.page-title{
     color: #732060;
 }
 
-/* END: Common Items */
+/* END: Common Items 
