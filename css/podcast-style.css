@@ -180,16 +180,15 @@ ul.episode-actions {
 }
 /* High-value-end */
 
-.episode-actions li {
-
-}
 
 .episode-action {
     float: left;
     padding-right: 1em;
     background-repeat: no-repeat;
     padding-left: 18px;
-    height: 22px; /* height must be < 23px with current sprite sheet */
+    
+    /* For these icons, height must be < 23px with current sprite sheet */
+    height: 22px;
 }
 
 .episode-action.listen {
@@ -237,6 +236,7 @@ ul.episode-actions {
     height: 27px;
     padding-left: 35px;
     padding-top: 2px;
+    padding-bottom: 12px;
     font-size: 1.3em;
     font-weight: 600;
 }
