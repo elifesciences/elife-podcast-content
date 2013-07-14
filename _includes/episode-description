@@ -13,15 +13,13 @@
 
     {{ post.content }}
 
-    <ul class="episode-actions">
-        <li><a href="/listen"><span
-                class="podcast-listen-big">Listen</span></a></li>
-    </ul>
-    <ul class="pull-right episode-actions">
-        <li><a href="/listen"><span class="download"></span>Download</a>
+
+
+    <ul class='episode-actions'>
+        <li><a href='#listen' class='episode-action podcast-listen-big'>Listen</a></li>
+        <li class='pull-right'><a href='#download' class='episode-action download'>Download</a>
         </li>
-        <li><a href="/listen"><span
-                class="subscribe"></span>Subscribe</a></li>
+        <li class='pull-right'><a href='#subscribe' class='episode-action subscribe'>Subscribe</a></li>
     </ul>
 </div>
 
