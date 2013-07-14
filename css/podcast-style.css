@@ -100,7 +100,7 @@ h1#title.page-title{
 .podcast-item {
     width: 100%;
     margin-top: 20px;
-    padding-bottom:20px;
+    padding-bottom:50px;
 }
 
 .podcast-item .thumbnail {
@@ -112,6 +112,7 @@ h1#title.page-title{
     float: left;
     margin-left: 15px;
     width: 430px;
+    padding-bottom: 20px;
 }
 
 .podcast-item .information h4 {
@@ -134,20 +135,19 @@ h1#title.page-title{
 
 .podcast-thumbail {
     width: 100px;
+    float: left;
     height: 100px;
 }
 
-.podcast-thumbail {
-    float: left;
-}
 
-/* empty container housing the larger speaker icon as a background image */
-.podcast-thumbail div {
+/* empty container housing a blue speaker icon on a white background, as a background image */
+.podcast-thumbail span {
+    display: inline-block;
     width: 32px;
     height: 30px;
     position: relative;
     background: url('http://cdn.elifesciences.org/podcast/sprite.png') no-repeat -12px -84px;
-    top: 72px;
+    top: -28px;
     left: -1px;
 
 }
@@ -205,16 +205,6 @@ ul.episode-actions {
     background-image: url('http://cdn.elifesciences.org/podcast/sprite.png');
     background-position: -14px -112px;
 }
-
-/*.episode-actions {
-    list-style: none;
-    display: inline;
-}
-
-.episode-actions li {
-    float: left;
-    margin-right: 30px;
-}*/
 
 /* END: Podcast Items */
 
