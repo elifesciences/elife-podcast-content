@@ -5,7 +5,7 @@
 
 <div>
 <p>
-<a href="">Listen to other episodes of the eLife Podcast</a>
+<a href="{{ site.podcast_info.podcast_homepage }}">Listen to other episodes of the eLife Podcast</a>
 </p>
 </div>
 

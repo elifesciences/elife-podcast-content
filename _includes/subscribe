@@ -4,7 +4,7 @@
 
     <div>
      <p>
-      </span> <a href="">Subscribe to the eLife Podcast RSS feed</a>
+      </span> <a href="{{ site.podcast_info.subscribe_url }}">Subscribe to the eLife Podcast RSS feed</a>
      </p>
     </div>
 
