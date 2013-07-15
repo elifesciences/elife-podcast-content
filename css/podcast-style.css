@@ -136,6 +136,7 @@ h1#title.page-title{
 .podcast-thumbail {
     width: 100px;
     float: left;
+    clear: left;
     height: 100px;
 }
 
