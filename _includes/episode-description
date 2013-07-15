@@ -7,7 +7,7 @@
 
 {% if post.cover_image_url %}
 <div class="podcast-thumbail">
-  <img class="podcast-thumbail" src="{{ post.cover_image_url }}" alt="episode cover image" />
+  <img class="podcast-thumbail" src="{{ site.podcast_info.image_base_url }}/episode{{ post.episode }}.jpg" alt="episode cover image" />
 </div>
 {% endif %}
 
@@ -16,12 +16,10 @@
 
     {{ post.content }}
 
-
-
     <ul class='episode-actions'>
         <li><a href='#listen' class='episode-action podcast-listen-big'>Listen</a></li>
         <li class='pull-right'><a href='#download' class='episode-action download'>Download</a></li>
-        <li class='pull-right'><a href='#subscribe' class='episode-action subscribe'>Subscribe</a></li>
+        <li class='pull-right'><a href='{{ site.podcast_info.subscribe_url }}' class='episode-action subscribe'>Subscribe</a></li>
     </ul>
 </div>
 
