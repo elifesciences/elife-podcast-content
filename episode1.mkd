@@ -18,7 +18,7 @@ The second block iterates over the segment posts for that episode, and there may
     {% endif %}
 {% endfor %}
 
-{% for post in site.posts %}
+{% for post in site.posts reversed %}
     {% if post.categories contains 'segment' and post.categories contains 'episode1' %}
         {% include segment-description %}
     {% endif %}

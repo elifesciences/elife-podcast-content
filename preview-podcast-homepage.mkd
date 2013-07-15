@@ -3,7 +3,7 @@ layout: preview-homepage
 title: eLife podcast episode homepage
 ---
 
-{% for post in site.posts %}
+{% for post in site.posts reversed %}
 	{% if post.categories contains 'description' and post.categories contains 'episode' %}
 		{% include episode-cover-description %}
 	{% endif %}
