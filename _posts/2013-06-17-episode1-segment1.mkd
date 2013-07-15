@@ -13,6 +13,9 @@ insights:
 editorials:
    - ["Editoral" , "link b"]
    - ["Editoral 2" , "http:www.lasdkfa"]
+features:
+   - ["Feature1" , "link b"]
+   - ["Feature2" , "http:www.lasdkfa"]
 episode: 1
 segment: 1
 cover_image_url: http://cdn.elifesciences.org/podcast/thumbnail-1.png
