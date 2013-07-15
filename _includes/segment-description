@@ -24,6 +24,14 @@
 	</div>
 	
 	<footer class="chapter-foot">
+        {% if post.features %}
+		<div class="feature-links">
+			{% for feature in post.features %}
+        	<a href="{{ feature[1] }}">Feature by {{ feature[0] }} </a>
+        	{% endfor %}
+		</div>
+        {% endif %}
+
         {% if post.articles %}
 		<div class="research-article-links">
 			{% for article in post.articles %}
