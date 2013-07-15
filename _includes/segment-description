@@ -11,7 +11,7 @@
 <div class="podcast-episode-content">
 
 	<h6 class="chapter-heading">
-	  <a href="{{ site.podcast_info.interview_base_url }}/{{ post.episode }}/{{ post.segment }}">{{ post.title }}</a>	
+	  <a href="{{ site.podcast_info.segment_base_url }}/episode{{ post.episode }}/segment{{ post.segment }}">{{ post.title }}</a>	
 	</h6>
 
 	<div class="chapter-desc">
