@@ -11,49 +11,6 @@ h1#title.page-title{
     color: #0e94cb;
 }
 
-/* START: eLife podcast header with logo */
-.podcast-title {
-    background-color: #65256c;
-    height: 80px;
-    width: 100%;
-}
-
-.podcast-detail-title {
-    background-color: #fff;
-    margin-top: 15px;
-    height: 64px;
-    width: 100%;
-    border-bottom: #ccc solid 1px;
-}
-
-.podcast-detail-title h1 {
-    font-weight: 600;
-    font-family: avenir;
-}
-
-.podcast-elife-logo {
-    float: left;
-    display: inline-block;
-    background: url('http://cdn.elifesciences.org/podcast/sprite.png') no-repeat -110px -64px;
-
-    width: 110px;
-    height: 110px;
-}
-
-.podcast-elife-title {
-    float: right;
-    font-size: 2.3em;
-    color: white;
-    font-weight: lighter;
-    padding: 30px;
-}
-
-.heavy {
-    font-weight: bolder;
-}
-
-/* END: eLife podcast header with logo */
-
 /* START: eLife podcast header with logo (DM) */
 .podcast-homepage-title {
     width: 41.75%;
