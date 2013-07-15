@@ -1,4 +1,4 @@
-/* hide title from  */
+ /* hide title from  */
 h1#title.page-title{
     display: none;
 }
@@ -100,6 +100,7 @@ h1#title.page-title{
 .podcast-item {
     width: 100%;
     margin-top: 20px;
+    padding-bottom:50px;
 }
 
 .podcast-item .thumbnail {
@@ -111,6 +112,7 @@ h1#title.page-title{
     float: left;
     margin-left: 15px;
     width: 430px;
+    padding-bottom: 20px;
 }
 
 .podcast-item .information h4 {
@@ -133,21 +135,22 @@ h1#title.page-title{
 
 .podcast-thumbail {
     width: 100px;
+    float: left;
+    clear: left;
     height: 100px;
 }
 
-.podcast-thumbail {
-    float: left;
-    display: inline-block;
-    position: relative;
-    z-index: 1;
-}
 
-.podcast-thumbail div + span {
-    position: absolute;
-    z-index: 1;
-    top: 72px;
-    right: 70px;
+/* empty container housing a blue speaker icon on a white background, as a background image */
+.podcast-thumbail span {
+    display: inline-block;
+    width: 32px;
+    height: 30px;
+    position: relative;
+    background: url('http://cdn.elifesciences.org/podcast/sprite.png') no-repeat -12px -84px;
+    top: -28px;
+    left: -1px;
+
 }
 
 .podcast-thumbnail-listen {
@@ -157,44 +160,51 @@ h1#title.page-title{
     height: 30px;
 }
 
-.episode-actions .listen {
-    float: left;
-    display: inline-block;
-    background: url('http://cdn.elifesciences.org/podcast/sprite.png') no-repeat -14px -150px;
-    width: 13px;
-    height: 11px;
-    margin-right: 4px;
-    margin-top: 5px;
-}
-
-.episode-actions .download {
-    float: left;
-    display: inline-block;
-    background: url('http://cdn.elifesciences.org/podcast/sprite.png') no-repeat -14px -134px;
-    width: 11px;
-    height: 12px;
-    margin-right: 4px;
-    margin-top: 5px;
-}
-
-.episode-actions .subscribe {
-    float: left;
-    display: inline-block;
-    background: url('http://cdn.elifesciences.org/podcast/sprite.png') no-repeat -16px -117px;
-    width: 11px;
-    height: 12px;
-    margin-right: 4px;
-    margin-top: 5px;
-}
 
 .episode-actions {
     list-style: none;
-    display: inline;
+    list-style-type: none;
+    clear: both;
+    float:none;
+
+
 }
 
-.episode-actions li {
+/* NOTE: high(-er-than-we'd-like) value selectors ahead. Required to override some high 
+            value selectors used in files we can't touch. DM 12 July 2013 */
+
+/* High-value-start */
+ul.episode-actions {
+    margin: 0;
+    padding: 0;
+
+}
+/* High-value-end */
+
+
+.episode-action {
     float: left;
-    margin-right: 30px;
+    padding-right: 1em;
+    background-repeat: no-repeat;
+    padding-left: 18px;
+    
+    /* For these icons, height must be < 23px with current sprite sheet */
+    height: 22px;
+}
+
+.episode-action.listen {
+    background-image: url('http://cdn.elifesciences.org/podcast/sprite.png');
+    background-position: -14px -145px; 
+}
+
+.episode-action.download {
+    background-image: url('http://cdn.elifesciences.org/podcast/sprite.png');
+    background-position: -14px -129px;
+}
+
+.episode-action.subscribe {
+    background-image: url('http://cdn.elifesciences.org/podcast/sprite.png');
+    background-position: -14px -112px;
 }
 
 /* END: Podcast Items */
@@ -217,6 +227,7 @@ h1#title.page-title{
     height: 27px;
     padding-left: 35px;
     padding-top: 2px;
+    padding-bottom: 12px;
     font-size: 1.3em;
     font-weight: 600;
 }
@@ -280,4 +291,4 @@ h1#title.page-title{
     color: #732060;
 }
 
-/* END: Common Items */
+/* END: Common Items 

@@ -1,25 +1,29 @@
 
-<!-- This <img> may or may not need to be here, depending on what this
-                site's convention is on locating images in this position. -->
+<article>
+	<div class="podcast-item">
+		<!-- This <img> may or may not need to be here, depending on what this
+		                site's convention is on locating images in this position. -->
 
-{% if post.cover_image_url %}
-<div class="podcast-thumbail">
-  <img class="podcast-thumbail" src="{{ post.cover_image_url }}" alt="episode cover image" />
-</div>
-{% endif %}
+		{% if post.cover_image_url %}
+		<div class='podcast-thumbail'>
+      		<a href="#listen">
+      			<img class='podcast-thumbail' alt='episode cover image' src='{{ post.cover_image_url }}' />
+      			<span></span>
+      		</a>
+   		</div>
+		{% endif %}
 
-<div class="information">
-    <h4>{{ post.title }}</h4>
+		<div class="information">
+		    <h4>{{ post.title }}</h4>
 
-    {{ post.content }}
+		    {{ post.content }}
 
-<ul class="episode-actions">
-<li><a href="/listen"><span class="listen"></span> <span
-        style="margin-top:-5px">Listen</span></a></li>
-<li><a href="/listen"><span class="download"></span>Download</a>
-</li>
-<li><a href="/listen"><span
-        class="subscribe"></span>Subscribe</a></li>
-</ul>
-</div>
-
+		    <ul class='episode-actions'>
+		        <li><a href='#listen' class='episode-action listen'>Listen</a></li>
+		        <li><a href='#download' class='episode-action download'>Download</a>
+		        </li>
+		        <li><a href='#subscribe' class='episode-action subscribe'>Subscribe</a></li>
+		    </ul>
+		</div>
+	</div>
+</article>
