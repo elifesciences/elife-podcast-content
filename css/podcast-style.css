@@ -248,6 +248,7 @@ ul.episode-actions {
 
 .podcast-episode-sidebar {
     float: left;
+    clear: left;
     width: 30px;
 }
 
