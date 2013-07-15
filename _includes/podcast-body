@@ -1,10 +1,7 @@
 <div class="content grid-19 clearfix podcast">
 
 
-<div class="podcast-title clearfix">
-<span class="podcast-elife-logo"></span>
-<span class="podcast-elife-title">The <span class="heavy">eLife</span> Podcast</span>
-</div>
+<h1 class="podcast-homepage-title">The eLife Podcast</h1>
 
 
 <article>

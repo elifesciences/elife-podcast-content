@@ -54,6 +54,35 @@ h1#title.page-title{
 
 /* END: eLife podcast header with logo */
 
+/* START: eLife podcast header with logo (DM) */
+.podcast-homepage-title {
+    width: 41.75%;
+    font-family: avenir;
+    font-size: 32.2px;
+    color: white;
+    font-weight: lighter;
+    background-image: url('http://cdn.elifesciences.org/podcast/sprite.png');
+    background-repeat: no-repeat;
+    background-position: -110px -64px;
+    background-color: #65256c;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-left: 58.5%;
+    white-space: nowrap;
+    margin-top: 10px;
+}
+
+/* min-width is better, but retrofitting... DM */
+@media all and (max-width: 1219px) {
+    .podcast-homepage-title {
+        width: 50%;
+        padding-left: 50%; 
+    }
+}
+
+/* END: eLife podcast header with logo (DM) */
+
+
 /* START: Podcast Sidebar  */
 .podcast-sidebar {
     margin-left: 27px;
