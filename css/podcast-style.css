@@ -12,7 +12,7 @@ h1#title.page-title{
 }
 
 /* START: eLife podcast header with logo (DM) */
-.podcast-homepage-title {
+h1#page-title {
     width: 41.75%;
     font-family: avenir;
     font-size: 32.2px;
