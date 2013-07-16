@@ -4,9 +4,11 @@
 <section class="chapter">
 <div class="podcast-episode">
 
+{% if post.segment-audio %}
 <div class="podcast-episode-sidebar">
-    <a href="/listen"><span class="podcast-thumbnail-listen"></span></a>
+    <a href="{{ post.segment-audio }}"><span class="podcast-thumbnail-listen"></span></a>
 </div>
+{% endif %}
 
 <div class="podcast-episode-content">
 
