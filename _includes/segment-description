@@ -27,32 +27,72 @@
         {% if post.features %}
 		<div class="feature-links">
 			{% for feature in post.features %}
-        	<a href="{{ feature[1] }}">Feature by {{ feature[0] }} </a>
-        	{% endfor %}
+				{% if forloop.length == 1 %}				
+		        	Feature by<a href="{{ feature[1] }}"> {{ feature[0] }} </a>
+		    	{% else %}
+		    		{% if forloop.first %}
+			    		Features by <a href="{{ feature[1] }}">{{ feature[0] }},</a>
+		    		{% elsif forloop.last %}
+		    			<a href="{{ feature[1] }}">{{ feature[0] }}</a>
+		    		{% else %}
+		    			<a href="{{ feature[1] }}">{{ feature[0] }},</a>
+		    		{% endif %}
+		   		{% endif %}
+		   	{% endfor %}
 		</div>
         {% endif %}
 
         {% if post.articles %}
 		<div class="research-article-links">
 			{% for article in post.articles %}
-        	<a href="{{ article[1] }}">Research article by {{ article[0] }} </a>
-        	{% endfor %}
+				{% if forloop.length == 1 %}				
+		        	Research article by <a href="{{ article[1] }}"> {{ article[0] }} </a>
+		    	{% else %}
+		    		{% if forloop.first %}
+			    		Research articles by <a href="{{ article[1] }}">{{ article[0] }},</a>
+		    		{% elsif forloop.last %}
+		    			<a href="{{ article[1] }}">{{ article[0] }}</a>
+		    		{% else %}
+		    			<a href="{{ article[1] }}">{{ article[0] }},</a>
+		    		{% endif %}
+		   		{% endif %}
+		   	{% endfor %}
 		</div>
         {% endif %}
 
         {% if post.insights %}
 		<div class="insight-links">
 			{% for insight in post.insights %}
-        	<a href="{{ insight[1] }}">Insight by {{ insight[0] }} </a>
-        	{% endfor %}
+				{% if forloop.length == 1 %}				
+		        	Insight by<a href="{{ insight[1] }}"> {{ insight[0] }} </a>
+		    	{% else %}
+		    		{% if forloop.first %}
+			    		Insights by <a href="{{ insight[1] }}">{{ insight[0] }},</a>
+		    		{% elsif forloop.last %}
+		    			<a href="{{ insight[1] }}">{{ insight[0] }}</a>
+		    		{% else %}
+		    			<a href="{{ insight[1] }}">{{ insight[0] }},</a>
+		    		{% endif %}
+		   		{% endif %}
+		   	{% endfor %}
 		</div>
         {% endif %}
 
         {% if post.editorials %}
 		<div class="editorial-links">
 			{% for editorial in post.editorials %}
-        	<a href="{{ editorial[1] }}">{{ editorial[0] }} </a>
-        	{% endfor %}
+				{% if forloop.length == 1 %}				
+		        	Editorial by<a href="{{ editorial[1] }}"> {{ editorial[0] }} </a>
+		    	{% else %}
+		    		{% if forloop.first %}
+			    		Editorials by <a href="{{ editorial[1] }}">{{ editorial[0] }},</a>
+		    		{% elsif forloop.last %}
+		    			<a href="{{ editorial[1] }}">{{ editorial[0] }}</a>
+		    		{% else %}
+		    			<a href="{{ editorial[1] }}">{{ editorial[0] }},</a>
+		    		{% endif %}
+		   		{% endif %}
+		   	{% endfor %}
 		</div>
         {% endif %}
     </footer>
