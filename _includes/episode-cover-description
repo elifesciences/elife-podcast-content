@@ -25,8 +25,8 @@
 
 		    <ul class='episode-actions'>
 		    	{% if post.episode-audio %}
-		        <li><a href='{{ post.episode-audio }}' class='episode-action podcast-listen-big'>Listen</a></li>
-		        <li class='pull-right'><a href='{{ post.episode-audio }}' class='episode-action download' download="eLife-podcast-episode{{ post.episode }}.mp3">Download</a></li>
+		        <li><a href='{{ post.episode-audio }}' class='episode-action listen'>Listen</a></li>
+		        <li><a href='{{ post.episode-audio }}' class='episode-action download' download="eLife-podcast-episode{{ post.episode }}.mp3">Download</a></li>
 				{% endif %}
 		        <li><a href='{{ site.podcast_info.subscribe_url }}' class='episode-action subscribe'>Subscribe</a></li>
 		    </ul>
