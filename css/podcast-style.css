@@ -266,19 +266,19 @@ ul.episode-actions {
     margin-right: 5px;
 }
 
-.research-article-links a:link{
+.research-article-links a{
     color: #0e94cb;
 }
 
-.insight-links a:link{
+.insight-links a{
     color: #629f43;
 }
 
-.editorial-links a:link{
+.editorial-links a{
     color: #732060;
 }
 
-.feature-links a:link{
+.feature-links a{
     color: #C53B62;
 }
 
