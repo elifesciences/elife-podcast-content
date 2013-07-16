@@ -7,6 +7,7 @@ categories:
   - episode2
 cover_image_url: yes
 episode: 2
+episode-audio: http://nakeddiscovery.com/downloads/split_individual/13.06.27/Naked_Scientists_Show_13.06.27_1000943.mp3 
 ---
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.

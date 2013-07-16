@@ -15,7 +15,7 @@ editorials:
    - ["Editoral 2" , "http:www.lasdkfa"]
 episode: 1
 segment: 2
-cover_image_url: http://cdn.elifesciences.org/podcast/thumbnail-1.png
+segment-audio: http://nakeddiscovery.com/downloads/split_individual/13.06.27/Naked_Scientists_Show_13.06.27_1000943.mp3 
 ---
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
