@@ -6,10 +6,15 @@
 
 		{% if post.cover_image_url %}
 		<div class='podcast-thumbail'>
-      		<a href="#listen">
+			{% if post.episode-audio %}
+      		<a href="{{ post.episode-audio }}">
       			<img class='podcast-thumbail' alt='episode cover image' src='{{ site.podcast_info.image_base_url }}/episode{{ post.episode }}.jpg' />
       			<span></span>
       		</a>
+      		{% else %}
+      			<img class='podcast-thumbail' alt='episode cover image' src='{{ site.podcast_info.image_base_url }}/episode{{ post.episode }}.jpg' />
+      			<span></span>
+      		{% endif %}      		
    		</div>
 		{% endif %}
 
@@ -19,9 +24,10 @@
 		    {{ post.content }}
 
 		    <ul class='episode-actions'>
-		        <li><a href='#listen' class='episode-action listen'>Listen</a></li>
-		        <li><a href='#download' class='episode-action download'>Download</a>
-		        </li>
+		    	{% if post.episode-audio %}
+		        <li><a href='{{ post.episode-audio }}' class='episode-action listen'>Listen</a></li>
+		        <li><a href='{{ post.episode-audio }}' class='episode-action download' download="eLife-podcast-episode{{ post.episode }}.mp3">Download</a></li>
+				{% endif %}
 		        <li><a href='{{ site.podcast_info.subscribe_url }}' class='episode-action subscribe'>Subscribe</a></li>
 		    </ul>
 		</div>
