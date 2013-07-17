@@ -27,7 +27,7 @@ url:         http://localhost:4000
 lsi:         false
 
 podcast_info:
-    subscribe_url: http://subscribe.nakedscientists.com
+    subscribe_url: http://www.thenakedscientists.com/rss/eLife_podcast.xml
     segment_base_url: http://elife.elifesciences.org/podcast
     image_base_url: http://cdn.elifesciences.org/podcast
     podcast_homepage: http://elife.elifesciences.org/podcast
