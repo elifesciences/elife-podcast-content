@@ -1,21 +1,14 @@
 ---
 layout: segment
-title: (6:23) episode1 segment 3
+title: All about eLife
 categories:
  - segment
  - episode1
-articles:
-   - ["Jennings" , "link b"]
-   - ["Peterson" , "http:www.lasdkfa"]
-insights:
-   - ["Overbaker" , "link b"]
-   - ["Fredericks, Montaque et al." , "http:www.lasdkfa"]
 editorials:
-   - ["Editoral" , "link b"]
-   - ["Editoral 2" , "http:www.lasdkfa"]
+   - ["Schekman, Watt and Weigel" , "http://elife.elifesciences.org/content/2/e00799"]
 episode: 1
 segment: 3
-segment-audio: http://nakeddiscovery.com/downloads/split_individual/13.06.27/Naked_Scientists_Show_13.06.27_1000943.mp3 
+segment-audio: http://nakeddiscovery.com/downloads/split_individual/13.06.16/eLife_Podcast_13.06_1001046.mp3
 ---
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+eLife deputy editor Fiona Watt explains why eLife was launched and what it hopes to achieve.

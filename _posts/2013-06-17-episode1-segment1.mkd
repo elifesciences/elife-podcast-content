@@ -1,23 +1,16 @@
 ---
 layout: segment
-title: (6:23) episode1 segment 1
+title: The origins of multicellularity
 categories:
  - segment
  - episode1
 articles:
-   - ["Jennings" , "link b"]
-   - ["Peterson" , "http:www.lasdkfa"]
+   - ["Alegado et al." , "http://elife.elifesciences.org/content/1/e00013"]
 insights:
-   - ["Overbaker" , "link b"]
-   - ["Fredericks, Montaque et al." , "http:www.lasdkfa"]
-editorials:
-   - ["Editoral" , "link b"]
-   - ["Editoral 2" , "http:www.lasdkfa"]
-features:
-   - ["Feature1" , "link b"]
-   - ["Feature2" , "http:www.lasdkfa"]
+   - ["Hadfield" , "http://elife.elifesciences.org/content/1/e00242"]
 episode: 1
 segment: 1
+segment-audio: http://nakeddiscovery.com/downloads/split_individual/13.06.16/eLife_Podcast_13.06_1001044.mp3
 ---
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+Extremely low concentrations of a molecule produced by bacteria can cause single-celled organisms to form colonies, which suggests that bacteria might have influenced the origin of multicellularity in animals

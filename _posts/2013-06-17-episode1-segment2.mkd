@@ -1,21 +1,16 @@
 ---
 layout: segment
-title: (6:23) episode1 segment 2
+title: What modern sequencing technology can tell us about the potato famines of the 1840s
 categories:
  - segment
  - episode1
 articles:
-   - ["Jennings" , "link b"]
-   - ["Peterson" , "http:www.lasdkfa"]
+   - ["Yoshida et al." , "http://elife.elifesciences.org/content/2/e00731"]
 insights:
-   - ["Overbaker" , "link b"]
-   - ["Fredericks, Montaque et al." , "http:www.lasdkfa"]
-editorials:
-   - ["Editoral" , "link b"]
-   - ["Editoral 2" , "http:www.lasdkfa"]
+   - ["Birch and Cooke" , "http://elife.elifesciences.org/content/2/e00954"]
 episode: 1
 segment: 2
-segment-audio: http://nakeddiscovery.com/downloads/split_individual/13.06.27/Naked_Scientists_Show_13.06.27_1000943.mp3 
+segment-audio: http://nakeddiscovery.com/downloads/split_individual/13.06.16/eLife_Podcast_13.06_1001045.mp3
 ---
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+The strain of P. infestans that caused the Great Famine in the late 1840s has been identified by sequencing  the genomes of samples collected in the 19th century.

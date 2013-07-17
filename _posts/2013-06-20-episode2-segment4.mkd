@@ -1,0 +1,14 @@
+---
+layout: segment
+title: Single-molecule measurements in the immune system
+categories:
+ - segment
+ - episode2
+articles:
+   - ["O'Donoghue" , "http://elife.elifesciences.org/content/2/e00778"]
+episode: 2
+segment: 4
+segment-audio: http://nakeddiscovery.com/downloads/split_individual/13.07.16/eLife_Podcast_13.07_1001054.mp3
+---
+
+Single-molecule measurements in living cells have revealed that a single foreign peptide is able to activate a single T cell.

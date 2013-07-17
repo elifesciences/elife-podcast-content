@@ -1,13 +1,13 @@
 ---
 layout: segment
-title: description for episode one
+title: Episode 1
 categories:
   - description
   - episode
   - episode1
 cover_image_url: yes
 episode: 1
-episode-audio: http://nakeddiscovery.com/downloads/split_individual/13.06.27/Naked_Scientists_Show_13.06.27_1000943.mp3 
+episode-audio: http://nakeddiscovery.com/libsyn/eLife_Podcast_13.06.mp3
 ---
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+Welcome to the first eLife podcast, which covers topics as diverse as the origins of multicellularity, what modern sequencing technology can tell us about the potato famines of the 1840s, the discovery of the receptor for the hepatitis B and D viruses, the effect of fog on the behaviour of car drivers, and the evolution of chromatin. 

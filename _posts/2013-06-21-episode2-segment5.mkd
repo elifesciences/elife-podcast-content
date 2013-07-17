@@ -1,0 +1,17 @@
+---
+layout: segment
+title: And there’s more
+features:
+ - ["Boyd" , "http://elife.elifesciences.org/content/2/e01061"]
+categories:
+ - segment
+ - episode2
+articles:
+ - ["de Michele et al." , "http://elife.elifesciences.org/content/2/e00800"]
+ - ["Thompson et al." , "http://elife.elifesciences.org/content/2/e00603"]
+episode: 2
+segment: 5
+segment-audio: http://nakeddiscovery.com/downloads/split_individual/13.07.16/eLife_Podcast_13.07_1001055.mp3
+---
+
+eLife features editor Peter Rodgers discusses a topical Point of View article by Ian Boyd, chief scientific adviser to the Department of the Environment, Food and Rural Affairs in the UK, plus research articles on a sensor for measuring extracellular ammonium and a study of the evolution of gene regulation in yeast.
