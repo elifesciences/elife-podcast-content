@@ -267,19 +267,19 @@ ul.episode-actions {
 }
 
 .research-article-links a{
-    color: #0e94cb;
+    color: #0e94cb !important;
 }
 
 .insight-links a{
-    color: #629f43;
+    color: #629f43 !important;
 }
 
 .editorial-links a{
-    color: #732060;
+    color: #732060 !important;
 }
 
 .feature-links a{
-    color: #C53B62;
+    color: #C53B62 !important;
 }
 
 /* END: Common Items 
