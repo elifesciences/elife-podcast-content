@@ -2,10 +2,6 @@
 
 <div class="content grid-19 clearfix podcast">
 
-<div class="podcast-detail-title clearfix">
-    <h1>{{ page.title }}</h1>
-</div>
-
 <article>
   <div class="clearfix"></div>
   {{ content }}
