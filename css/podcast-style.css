@@ -4,7 +4,7 @@ h1#title.page-title{
 }
 
     .podcast {
-    font-family: avenir;
+    font-family: Helvetica, Arial, Verdana, sans-serif;
 }
 
 .podcast a, a:visited {
@@ -14,7 +14,7 @@ h1#title.page-title{
 /* START: eLife podcast header with logo (DM) */
 h1#page-title {
     width: 41.75%;
-    font-family: avenir;
+    font-family: 'Avenir LT W01 35 Light',Helvetica,Arial,Verdana,sans-serif;
     font-size: 32.2px;
     color: white;
     font-weight: lighter;
@@ -39,6 +39,9 @@ h1#page-title {
 
 /* END: eLife podcast header with logo (DM) */
 
+h4 {
+    font-family: 'Avenir LT W01 35 Light',Helvetica,Arial,Verdana,sans-serif;
+}
 
 /* START: Podcast Sidebar  */
 .podcast-sidebar {
