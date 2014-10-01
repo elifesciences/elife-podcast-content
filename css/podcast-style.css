@@ -163,7 +163,7 @@ h4 {
             value selectors used in files we can't touch. DM 12 July 2013 */
 
 /* High-value-start */
-ul.episode-actions {
+.podcast-item ul.episode-actions {
     margin: 0;
     padding: 0;
 
@@ -206,6 +206,10 @@ ul.episode-actions {
 
 .pull-right {
     float: right;
+}
+
+.pull-left {
+    float: left;
 }
 
 .podcast-listen-big {
